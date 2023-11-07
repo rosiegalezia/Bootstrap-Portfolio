@@ -10,12 +10,21 @@ header {
 }
 
 section {
-    /* margin-top: 300px; */
-    /* padding-top: 100px; */
+    padding-top: 80px;
+}
+
+.main {
+    /* position: relative;
+    margin-top: 50px; */
 }
 
 i {
     color: #029696;
+}
+
+i:hover{
+    color: #029696;
+    opacity: 50%;
 }
 
 h5 {
@@ -27,11 +36,20 @@ background-color: #029696 !important;
 }
 
 .navitem {
-    color: white !important;
+    /* color: white !important; */
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 50%;
 }
 
 a {
-    color: white !important;
+    /* color: white !important; */
 }
 
 .jumbotron {
@@ -50,7 +68,7 @@ footer {
     margin-top: 50px;
   } 
 
-section #work {
+#work {
 
 }
 
