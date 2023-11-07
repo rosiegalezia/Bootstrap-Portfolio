@@ -9,42 +9,35 @@ html {
     width: 100vw;
 }
 
-body {
-    /* margin-top: 80px; */
-}
-
-header {
-}
-
-section {
-    /* padding-top: 80px; */
-}
-
-.main {
-    /* margin-top: 50px; */
-}
-
 #anchor_1,
 #anchor_2,
 #anchor_3,
 #anchor_4 {
-  display: block;
-  position: relative;
-  top: -10vh;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
 }
 
 i {
     color: #029696;
 }
 
-i:hover{
+i:hover {
     color: #029696;
     opacity: 50%;
 }
 
+h1 {
+color: white !important;
+}
+
 h5 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card-text {
@@ -52,13 +45,9 @@ h5 {
 }
 
 .navbar {
-background-color: #029696 !important;
-height: 10vh;
-z-index: 10;
-}
-
-.navitem {
-    /* color: white !important; */
+    background-color: #029696 !important;
+    height: 10vh;
+    z-index: 10;
 }
 
 .nav-link {
@@ -70,32 +59,11 @@ z-index: 10;
     opacity: 50%;
 }
 
-a {
-    /* color: white !important; */
-}
-
 .jumbotron {
     background-color: #4dbcbc;
-    /* padding-top: 10vh; */
     margin-top: 10vh;
 }
 
 footer {
     background-color: #4dbcbc;
-  } 
-
-#work {
-
-}
-
-#skills {
-
-}
-
-#cv {
-
-}
-
-#contact {
-    
 }
