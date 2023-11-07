@@ -44,6 +44,10 @@ a {
     text-align: center;
 }
 
+.card:hover {
+opacity: 80%;
+}
+
 .navbar {
     background-color: #029696 !important;
     height: 10vh;
