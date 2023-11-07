@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top bg-body-tertiary navbar-expand-md">
-        <div class="container-fluid my-3 mx-5">
+    <nav class="navbar custom-fixed-position bg-body-tertiary navbar-expand-md">
+        <div class="container-fluid my-3 mx-5 d-flex align-items-center">
           <h1 class="navbar-brand" href="#">Rosie Galezia</h1>
 
           <div class="justify-content-end">
@@ -22,16 +22,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
               <li class="nav-item">
-                <p><a class="nav-link" href="#work">Work</a></p>
+                <a class="nav-link" href="#anchor_1">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#anchor_2">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cv">CV</a>
+                <a class="nav-link" href="#anchor_3">CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Me</a>
+                <a class="nav-link" href="#anchor_4">Contact Me</a>
               </li>
             </ul>
           </div>
@@ -39,8 +39,8 @@
         </div>
   </nav>
 
-  <section class="jumbotron mt-5 p-5">
-  <div class="d-flex container-fluid">
+  <section class="jumbotron p-5">
+  <div class="container-fluid d-flex align-items-center mt-4">
     <img class="rounded-circle" src="./Images/Headshot small.jpg" alt="" style="height: 200px; width: 200px;">
     <div class="m-5">
     <h2>Hi, my name is Rosie</h2>
@@ -51,8 +51,9 @@
 
 <div class="container-fluid main">
 
-<section id="work">
-  <h2 class="m-5">My Work</h2>
+  <a id="anchor_1" href="#"></a>
+<section id="work" class="py-5">
+  <h2 class="mx-5">My Work</h2>
   <div class="card-group px-5">
     <div class="row">
 
@@ -68,17 +69,17 @@
     <div class="card rounded-3 border-black mx-2 my-3 col-lg-10 col-md-5 col-sm-4 object-fit-cover">
       <img src="./Images/LinkedIn banner-01.png" class="card-img-top img-fluid" alt="...">
       <div class="card-body h-100 w-100">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Horiseon Marketing</h5>
+        <p class="card-text">An adaptation of code in order to meet accessibility standards.</p>
         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
       </div>
     </div>
-
+    
     <div class="card rounded-3 border-black mx-2 my-3 col-lg-10 col-md-5 col-sm-4 object-fit-cover">
       <img src="./Images/LinkedIn banner-01.png" class="card-img-top img-fluid" alt="...">
       <div class="card-body h-100 w-100">
-        <h5 class="card-title">Horiseon Marketing</h5>
-        <p class="card-text">An adaptation of code in order to meet accessibility standards.</p>
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
       </div>
     </div>
@@ -86,11 +87,11 @@
 </div>
 </section>
 
+<a id="anchor_2" href="#"></a>
+<section id="skills" class="py-5">
+  <h2 class="row mx-5">Skills</h2>
 
-<section id="skills">
-  <h2 class="row m-5">Skills</h2>
-
-  <div class="card-group px-4">
+  <div class="card-group">
 
     <div class="cardContainer col-lg-2 col-md-3 col-sm-4 p-3">
     <div class="card rounded-3 border-black mx-2 my-3 h-100">
@@ -215,27 +216,37 @@
   </div>
 </section>
 
-<section id="cv">
-  <h2 class="row m-5">CV</h2>
-<div class="container">
-  <embed src="./Images/Rosie Galezia CV Sept 2023.pdf" type="application/pdf" width="600px" height="900px"/>
-</div>
+<a id="anchor_3" href="#"></a>
+<section id="cv" class="py-5">
+  <h2 class="row mx-5">CV</h2>
+    <div class="d-flex justify-content-center">
+      <a href="./Images/Rosie Galezia CV Sept 2023.pdf" target="_blank">
+      <img src="./Images/Rosie Galezia CV Sept 2023-1.png" style="width: 60vw;">
+    </a>
+    </div>
 </section>
 
-<section id="contact">
-  <h2 class="row m-5">Contact Me</h2>
-  <div class="row d-inline-block text-center">
-    <a href=mailto"rosiegalezia@gmail.com" target="_blank"><i class="bi bi-envelope bs-primary" style="font-size:50px;"></i></a>
-    <a href="https://www.linkedin.com/in/rosiegalezia" target="_blank"><i class="bi bi-linkedin bs-primary" style="font-size:50px;"></i></a>
-    <a href="https://github.com/rosiegalezia" target="_blank"><i class="bi bi-github bs-primary" style="font-size:50px;"></i></a>
+<a id="anchor_4" href="#"></a>
+<section id="contact" class="py-5">
+  <h2 class="row mx-5">Contact Me</h2>
+  <div class="d-flex justify-content-center">
+  <div class="text-center">
+    <a href=mailto"rosiegalezia@gmail.com" target="_blank"><i class="bi bi-envelope-fill p-5" style="font-size:50px;"></i></a>
+    <a href="https://www.linkedin.com/in/rosiegalezia" target="_blank"><i class="bi bi-linkedin p-5" style="font-size:50px;"></i></a>
+    <a href="https://github.com/rosiegalezia" target="_blank"><i class="bi bi-github p-5" style="font-size:50px;"></i></a>
   </div>
+</div>
 </section>
 </div>
 
-<footer>
+<footer class="py-5">
+  <div class="container-fluid">
+  <h3 class="text-center text-light">Thanks for visiting my page!</h3>
+  </div>
 </footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
+
